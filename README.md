@@ -1,6 +1,6 @@
 # Scapy_RandomPaketSender
 
-This Script requires [Scapy](https://github.com/secdev/scapy) for sending randomly 1.000 ARP, TCP, Beacon Frame or ICMP Pakets in the air.
+This Script requires [Scapy](https://github.com/secdev/scapy) for sending randomly 1.000 ARP, TCP, Beacon Frame or ICMP pakets in the air.
 
 
 ## Execution
@@ -43,3 +43,8 @@ def random_data(size=randint(1, 1000), chars=string.ascii_uppercase + string.dig
 ```
 
 (borrowed from the User [Ignacio Vazquez-Abrams at stackoverflow](https://stackoverflow.com/a/2257449/8334101).
+
+## License
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+This project is licensed under CGNU General Public License 3. Take a look at the [license file](https://github.com/Staubgeborener/Scapy_RandomPaketSender/blob/master/LICENSE) for more informations.
