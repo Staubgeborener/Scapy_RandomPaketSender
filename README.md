@@ -38,7 +38,7 @@ for i in range(0,1000):
 
 The payload of the TCP pakets, both the length and the content, is also randomly generated with
 ```python
-def random_data(size=randint(1, 1500), chars=string.ascii_uppercase + string.digits):
+def random_data(size=randint(1, 1460), chars=string.ascii_uppercase + string.digits):
 			return ''.join(random.choice(chars) for _ in range(size))
 ```
 
