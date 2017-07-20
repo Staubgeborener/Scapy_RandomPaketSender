@@ -42,7 +42,7 @@ def random_data(size=randint(1, 1000), chars=string.ascii_uppercase + string.dig
 			return ''.join(random.choice(chars) for _ in range(size))
 ```
 
-(borrowed from the User [Ignacio Vazquez-Abrams at stackoverflow](https://stackoverflow.com/a/2257449/8334101).
+(borrowed from the User [Ignacio Vazquez-Abrams at stackoverflow](https://stackoverflow.com/a/2257449/8334101))
 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
