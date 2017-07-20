@@ -42,4 +42,4 @@ def random_data(size=randint(1, 1000), chars=string.ascii_uppercase + string.dig
 			return ''.join(random.choice(chars) for _ in range(size))
 ```
 
-(borrowed from the User [Ignacio Vazquez-Abrams at stackoverflow](https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits-in-python)
+(borrowed from the User [Ignacio Vazquez-Abrams at stackoverflow](https://stackoverflow.com/a/2257449/8334101).
