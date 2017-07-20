@@ -47,4 +47,4 @@ def random_data(size=randint(1, 1000), chars=string.ascii_uppercase + string.dig
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This project is licensed under CGNU General Public License 3. Take a look at the [license file](https://github.com/Staubgeborener/Scapy_RandomPaketSender/blob/master/LICENSE) for more informations.
+This project is licensed under GNU General Public License 3. Take a look at the [license file](https://github.com/Staubgeborener/Scapy_RandomPaketSender/blob/master/LICENSE) for more informations.
