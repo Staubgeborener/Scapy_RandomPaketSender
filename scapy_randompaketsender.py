@@ -12,7 +12,7 @@ bssid = "aa:aa:aa:aa:aa:aa"		#bssid
 source = "111.111.111.111"		#source address
 destination = "222.222.222.222"		#destination address
 
-#100.000 Pakete senden
+#sent 1.000 pakets
 for i in range(0,1000):
 	if (random.random() > 0.75): 
 		#ARP
