@@ -24,7 +24,7 @@ for i in range(0,1000):
 		print "sent ARP"		
 
 	elif (random.random() > 0.5):	
-		#TCP (payload size: 1500 bytes MTU - 20 bytes IP header - 20 bytes TCP header = 1460 bytes)
+		#TCP (max. payload size: 1500 bytes MTU - 20 bytes IP header - 20 bytes TCP header = 1460 bytes)
 		#https://stackoverflow.com/a/2257449/8334101
 		def random_data(size=randint(1, 1460), chars=string.ascii_uppercase + string.digits):
 			return ''.join(random.choice(chars) for _ in range(size))
