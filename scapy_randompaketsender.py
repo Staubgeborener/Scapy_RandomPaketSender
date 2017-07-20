@@ -25,7 +25,7 @@ for i in range(0,1000):
 
 	elif (random.random() > 0.5):	
 		#TCP (payload size: 1500 bytes MTU - 20 bytes IP header - 20 bytes TCP header = 1460 bytes)
-		#https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits-in-python
+		#https://stackoverflow.com/a/2257449/8334101
 		def random_data(size=randint(1, 1460), chars=string.ascii_uppercase + string.digits):
 			return ''.join(random.choice(chars) for _ in range(size))
 		tcp = IP(dst=destination, src=source) / TCP() / Raw(load=random_data())
