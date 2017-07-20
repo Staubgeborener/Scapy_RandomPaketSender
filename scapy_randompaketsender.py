@@ -24,9 +24,9 @@ for i in range(0,1000):
 		print "sent ARP"		
 
 	elif (random.random() > 0.5):	
-		#TCP
+		#TCP (max MTU size for ethernet frame are 1500 bytes)
 		#https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits-in-python
-		def random_data(size=randint(1, 1000), chars=string.ascii_uppercase + string.digits):
+		def random_data(size=randint(1, 1500), chars=string.ascii_uppercase + string.digits):
 			return ''.join(random.choice(chars) for _ in range(size))
 		tcp = IP(dst=destination, src=source) / TCP() / Raw(load=random_data())
 		send(tcp, iface = interface)
