@@ -36,9 +36,9 @@ The number of pakets can be customized in line 16.
 for i in range(0,1000):
 ``
 
-The payload of the ICMP Paket, both the length and the content, is also randomly generated with
+The payload of the TCP pakets, both the length and the content, is also randomly generated with
 ```python
-def random_data(size=randint(1, 1000), chars=string.ascii_uppercase + string.digits):
+def random_data(size=randint(1, 1500), chars=string.ascii_uppercase + string.digits):
 			return ''.join(random.choice(chars) for _ in range(size))
 ```
 
