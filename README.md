@@ -2,6 +2,7 @@
 
 This Script requires [Scapy](https://github.com/secdev/scapy) for sending randomly 1.000 ARP, TCP, Beacon Frame or ICMP pakets in the air.
 
+![alt text](https://github.com/Staubgeborener/Scapy_RandomPaketSender/blob/master/Screenshot_Terminal.png "Screenshot Terminal")
 
 ## Execution
 
