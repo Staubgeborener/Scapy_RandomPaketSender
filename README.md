@@ -32,9 +32,9 @@ destination = "222.222.222.222"		#destination address
 
 The number of pakets can be customized in line 16.
 
-``python
+```python
 for i in range(0,1000):
-``
+```
 
 The payload of the TCP pakets, both the length and the content, is also randomly generated with
 ```python
