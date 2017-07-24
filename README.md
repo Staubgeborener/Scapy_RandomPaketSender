@@ -45,6 +45,10 @@ def random_data(size=randint(1, 1460), chars=string.ascii_uppercase + string.dig
 
 (borrowed from the User [Ignacio Vazquez-Abrams at stackoverflow](https://stackoverflow.com/a/2257449/8334101))
 
+## Installation
+`$ git clone https://github.com/Staubgeborener/Scapy_RandomPaketSender/`
+
+
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
